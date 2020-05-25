@@ -23,7 +23,7 @@ Value : List , append at the end , only append if any of the field changes
 #### Request
 
 ```
-POST /geoprice/retailer_price/update?retailer_key=farmazone&retailer_product_id=test1&retailer_store_id= HTTP/1.1
+POST /geoprice/retailer_price/update?retailer_key=farmazone&retailer_product_id=8027950210473&retailer_store_id=1 HTTP/1.1
 Host: https://api.saludmexico.org
 X-api-key: client_key
 Content-Type: application/json
