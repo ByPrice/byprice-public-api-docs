@@ -2,12 +2,20 @@
 
 #### Request
 
+##### HTTP
 ```
 GET /catalog/retailer_product/get/all?page=1 HTTP/1.1
 Host: api.saludmexico.org
 X-api-key: byprice_generated_key
 
 ```
+
+##### cURL
+``` 
+curl --location --request GET 'https://api.saludmexico.org/catalog/retailer_product/get/all?page=3' \
+--header 'X-api-key: byprice_generated_key'
+
+``` 
 
 #### Parameters
 
