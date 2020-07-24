@@ -47,7 +47,7 @@
 GET /capillary/best_price/partner_salespoints/get?radius=10&zip_code=06600 HTTP/1.1
 OR
 GET /capillary/best_price/partner_salespoints/get?radius=10&longitude=-99.163553&latitude=19.42586 HTTP/1.1
-X-api-key: byprice_own_key
+X-api-key: client_key
 Host: api.saludmexico.org
 
 ```
@@ -93,7 +93,7 @@ Status : 200
 ```
 POST /capillary/best_price/partner_price/get?universal_product_id=7501409201041 HTTP/1.1
 Host: api.saludmexico.org
-X-api-key: byprice_own_key
+X-api-key: client_key
 Content-Type: application/json
 
 {
@@ -199,7 +199,7 @@ Status : 200
 
 ```
 GET /capillary/best_price/partner_salespoints/get?radius=10&zip_code=0660 HTTP/1.1
-X-api-key: byprice_own_key
+X-api-key: client_key
 Host: api.saludmexico.org
 
 ```
@@ -225,7 +225,7 @@ Status : 400
 
 ```
 GET /capillary/best_price/partner_salespoints/get?zip_code=06600&radius=15 HTTP/1.1
-X-api-key: byprice_own_key
+X-api-key: client_key
 Host: api.saludmexico.org
 
 ```
@@ -251,7 +251,7 @@ Status : 400
 
 ```
 GET /capillary/best_price/partner_price/get?universal_product_id=75012993302650 HTTP/1.1
-X-api-key: byprice_own_key
+X-api-key: client_key
 Host: api.saludmexico.org
 
 ```
