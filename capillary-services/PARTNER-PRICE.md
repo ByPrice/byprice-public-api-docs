@@ -1,6 +1,6 @@
 # Capillary Services Endpoints
 
-## Website -Price and Stock -API
+## Partner - Salespoints and Pricing -API
 
 ### Fields/Data Model
 
@@ -35,11 +35,12 @@
 
 **zip_code**
 
-- Data type: int, optional but strongly recommended
+- Data type: int, optional
 - Description: Zip code to get prices from
 - Validation: Should be an integer valid zip_code of 5 digits
 - Examples: 06600 or 04920
 
+### Endpoints
 
 #### Request
 
@@ -220,7 +221,7 @@ Status : 400
 
 ```
 
-##### radius bigger than allowed radius
+##### Radius bigger than allowed radius
 #### Request
 
 ```
@@ -246,7 +247,7 @@ Status : 400
 
 ```
 
-##### Invalid universal_product_id
+##### Invalid universal_product_id, product do not exist
 #### Request
 
 ```
