@@ -9,7 +9,7 @@
 
 - Data type: ean or gtin, Must
 - Description: Universal Product ID, could be ean or gtin
-- Validation: Should be a proper longitude
+- Validation: Should be a proper ean or gtin
 - Examples: 7501409201041 or 7501299330265
 
 **latitude**
@@ -30,7 +30,7 @@
 
 - Data type: int, optional but strongly recommended
 - Description: Radius of area to get prices from
-- Validation: Should be an integer from 1 to 100
+- Validation: Should be an integer from 1 to 10
 - Examples: 3 or 10
 
 **zip_code**
