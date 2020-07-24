@@ -37,7 +37,7 @@
 
 - Data type: int, optional
 - Description: Zip code to get prices from
-- Validation: Should be an integer valid zip_code of 5 digits
+- Validation: Should be a valid zip_code of 5 digits
 - Examples: 06600 or 04920
 
 ### Endpoints
