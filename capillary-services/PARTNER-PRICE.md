@@ -207,7 +207,7 @@ Host: api.saludmexico.org
 
 #### Response
 
-Status : 400
+Status : 404
 
 ```
 {
