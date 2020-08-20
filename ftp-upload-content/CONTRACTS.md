@@ -1,4 +1,4 @@
-### Setup
+## Setup
 
 Please ask for FTP credentials from 
 ##### yogesh@byprice.com
@@ -7,7 +7,9 @@ or
 
 
 
-### Rules
+## Rules
+
+### Add/Update
 
 #### 1. Please follow The filename structure
 
@@ -35,6 +37,8 @@ catalog_retailerkey_23_19_08_2020.csv
 catalog_retailerkey_00_20_08_2020.csv
 ```
 
+
+
 #### 2. Please follow structure of files, the column names should be same
 
 geoprice_retailerkey_hh_dd_mm_yyyy.csv
@@ -54,3 +58,7 @@ catalog_retailerkey_results_23_19_08_2020.csv
 ```
 
 #### 4. The history of files would be deleted after every 5 days
+
+
+### Delete
+Coming soon
