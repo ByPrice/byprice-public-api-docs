@@ -13,7 +13,7 @@ X-api-key: byprice_generated_key
 ##### cURL
 ``` 
 curl --location --request GET 'https://api.saludmexico.org/catalog/retailer_product/get/all?page=3' \
---header 'X-api-key: byprice_generated_key'
+--header 'X-api-key: api_key'
 
 ``` 
 
