@@ -13,7 +13,7 @@ or
 
 #### 1. Please follow The filename structure
 
-Upload Geoprices filename should be like geoprice_retailerkey_hh_dd_mm_yyyy.csv
+Upload Geoprices filename should be like geoprice_retailer_key_hh_dd_mm_yyyy.csv
 e.g 
 ```
 
@@ -26,7 +26,7 @@ geoprice_retailerkey_00_20_08_2020.csv
 ```
 
 
-Upload Geoprices filename should be like catalog_retailerkey_hh_dd_mm_yyyy.csv
+Upload Catalog filename should be like catalog_retailerkey_hh_dd_mm_yyyy.csv
 e.g 
 
 ```
