@@ -6,7 +6,6 @@ Each APIS documentation is available in CONTRACTS.md file
 
 Please contact these emails to request for client_keys
 - yogesh@byprice.com
-- adolfo@byprice.com
 - oscar@byprice.com
 
 #### Bug reporting or any other doubt 
