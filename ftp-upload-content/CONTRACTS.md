@@ -60,5 +60,8 @@ catalog_retailerkey_results_23_19_08_2020.csv
 #### 4. The history of files would be deleted after every 5 days
 
 
+#### 5. Please upload only changes, ByPrice process these files every hour.
+
+
 ### Delete
 Coming soon
