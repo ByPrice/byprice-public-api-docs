@@ -43,7 +43,7 @@
 |--------------------------|-------|-----------|-----------|
 | **universal_product_id** |  a    |    yes    |    str    |
 | **latitude**             |  b    |    yes    |    float  |
-| **longitude**            |  b    |    no     |    float  |
+| **longitude**            |  b    |    yes    |    float  |
 | **zip_code**             |  b    |    no     |    str    |
 
 ##### Note
