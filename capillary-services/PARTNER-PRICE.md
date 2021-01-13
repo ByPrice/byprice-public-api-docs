@@ -25,12 +25,6 @@
 - Validation: Should be a proper longitude
 - Examples: -99.125781 or -99.112842
 
-**radius**
-
-- Data type: int, optional but strongly recommended
-- Description: Radius of area to get prices from
-- Validation: Should be an integer from 1 to 10
-- Examples: 3 or 10
 
 **zip_code**
 
