@@ -42,8 +42,8 @@
 |--------------------------|-------|-----------|-----------|
 | **universal_product_id** |  a    |    yes    |    str    |
 | **latitude**             |  b    |    yes    |    float  |
-| **longitude**            |  b    |    yes     |    float  |
-| **zip_code**             |  b    |    yes     |    str    |
+| **longitude**            |  b    |    yes    |    float  |
+| **zip_code**             |  b    |    yes    |    str    |
 
 ##### Note
 - Parameters within the same group should be used together
@@ -56,6 +56,16 @@
 GET /capillary/tu_farmacia/best_price/get?universal_product_id=7501385410000&zip_code=06600 HTTP/1.1
 Host: dev-api.byprice.com
 X-api-key: byprice_own_key
+Content-Type: application/json
+
+```
+
+or 
+
+``` 
+GET /capillary/tu_farmacia/best_price/get?universal_product_id=7501385410000&latitude=19.42586&longitude=-99.163553 HTTP/1.1
+Host: dev-api.byprice.com
+X-api-key: api_key
 Content-Type: application/json
 
 ```
