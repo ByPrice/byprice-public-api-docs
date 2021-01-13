@@ -4,13 +4,6 @@
 
 ### Fields/Data Model
 
-**uuid**
-
-- Data type: uuid, Must
-- Description: Product ID, could be product_uuid or byprice_uuid
-- Validation: Should be a proper uuid
-- Examples: f6bafc68-06b3-4c09-b044-978a0a7404f6 or 1d73aa2f-beee-426f-bbcd-f69556aaf873
-
 **universal_product_id**
 
 - Data type: ean or gtin, Must
